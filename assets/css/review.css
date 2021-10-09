@@ -1,0 +1,28 @@
+.reviewWrapper {
+  width: 100%;
+  padding: 20px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewContent {
+  width: 80%;
+  height: 50px;
+  border: 1px solid #eee;
+  box-shadow: 3px 3px 9px rgb(232, 232, 232);
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.reviewContent div:nth-child(1) {
+  margin-right: 20px;
+}

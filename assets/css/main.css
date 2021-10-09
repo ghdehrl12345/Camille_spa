@@ -1,0 +1,158 @@
+.mainImageBox {
+  width: 100%;
+  height: 680px;
+
+  position: relative;
+}
+
+.mainImageBox .mainImageBox__img {
+  width: 100%;
+  height: 100%;
+  background-color: #999;
+  background-image: url("https://pds.joins.com/news/component/betanews/201612/13/890c8e87.jpg");
+  background-size: cover;
+}
+
+.mainImageBox .mainImageBox__txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainImageBox .mainImageBox__txt > p {
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.descriptionBox {
+  margin: 80px 0px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.descriptionBox > p {
+  margin: 5px 0px;
+  color: #999;
+}
+
+.screenBox {
+  width: 100%;
+  margin: 50px 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenBox > div {
+  width: calc(100% / 4);
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+
+.screenBox div:nth-child(1) {
+  background-image: url("https://t1.daumcdn.net/cfile/tistory/2331213E584FBB6434");
+  background-size: cover;
+}
+
+.screenBox div:nth-child(2) {
+  background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxNjExMjJfMTE3/MDAxNDc5Nzc1NDMwNTk4.ZVssMUWfeLRZwwSI5_x0MaQ_pTFxipwEKEDB5tR-eIcg.lOEZLxCjjMK-MDZxzkzu_VU17E2pMpThQzcIRCD1Lrsg.JPEG.playitembay/%EB%A1%A4_%EC%8B%A0%EA%B7%9C_%EC%B1%94%ED%94%BC%EC%96%B8_%EC%B9%B4%EB%B0%802.JPG?type=w800");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.screenBox div:nth-child(3) {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/651/564/885/video-game-league-of-legends-camille-league-of-legends-hd-wallpaper-preview.jpg");
+  background-size: cover;
+}
+
+.screenBox div:nth-child(4) {
+  background-image: url("https://mblogthumb-phinf.pstatic.net/MjAxOTA0MDZfODkg/MDAxNTU0NTIxODQzNDMz.zNz2_1ZynPXuBJXrwab8uLZC_EWXMmQlIO-0ZAfsebYg.uqd08GFBdtenftQh7XaoFS9Wall20FIQDWJlOo8qPvgg.JPEG.ultimatehyuk/164010.jpg?type=w800");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.videoBox {
+  width: 100%;
+  margin: 50px 0px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoBox > div {
+  width: 70%;
+  height: 300px;
+  background-color: #999;
+}
+
+.skillBox {
+  margin: 50px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillBox .skillBox__img {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+}
+
+.skillBox .skillBox__text {
+  width: 600px;
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+
+  color: #555;
+  font-weight: bold;
+}
+
+.si1 {
+  background-image: url("https://ww.namu.la/s/a1ca386c655bd3aa51886c8d9ac74978531f298669c5584f8ef0318dcd5b24ef8076e822e8015aa16dd9c615ef4cad6c71a1b7c1561908cc3406288712f2ec5931e1b671e038811cbabedf646e470839bd399117506c4522c1acf10b70a57662");
+  background-size: cover;
+}
+
+.si2 {
+  background-image: url("https://w.namu.la/s/9a11b9199744b1e8cc541792704819f8eb6ef0abd159edb3fd3f0b978de95ccb9902139e933a3b12606abdd4669b54891996325ea6470b7b3578b5f0a91a66955ce465473fba5a94f3fd5f807e4cefd1a27be135e71d8253284a1096508d3cc6");
+  background-size: cover;
+}
+
+.si3 {
+  background-image: url("https://w.namu.la/s/28df4ad3326efe6b02ac800276ea7fa677ab5b38b6b2efee0d6aebfd14580d0dedd0893dd79ae7a6c39ecf99de0ea975ce048b948c430526fd2d8017970f1176aec89a1b3888d591990a50988a2446f8141e36a7b16ff24b4db07ea04e4a244e");
+  background-size: cover;
+}
+
+.si4 {
+  background-image: url("https://w.namu.la/s/9ffca6b2d46aa43cf15b1f568cac23feeaad02482cb94c93bd3b9327387f7ef1131e242d1306411bebe1b50044e595a8e1237e6c8872669072850921459dc50bc1bef87b2674191a5c41ef8f2d0b1693619246309616f631b44ed629a02c4cf8");
+  background-size: cover;
+}
+
+.si5 {
+  background-image: url("https://ww.namu.la/s/5917c2977171d8b0f2e8026e0df5ff5224c522ec3e7879a9a083c3e0180e26660e660ea12929ba5031aa03660bfc3cbd49e49bd0ebc9521a4adb57e9c89d672b0c22037018c0ae957ef67dc6c1e5f5ee27748679883246ea69277271be8f6e9a");
+  background-size: cover;
+}
